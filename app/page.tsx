@@ -1,4 +1,26 @@
 import Link from "next/link";
+ const members = [
+  {
+    id: 1,
+    name: "Budi Santoso",
+    role: "Ketua",
+  },
+  {
+    id: 2,
+    name: "Andi Pratama",
+    role: "Wakil Ketua",
+  },
+  {
+    id: 3,
+    name: "Citra Lestari",
+    role: "Sekretaris",
+  },
+  {
+    id: 4,
+    name: "Dimas Saputra",
+    role: "Bendahara",
+  },
+];
 
 export default function Home() {
   return (
@@ -111,24 +133,32 @@ export default function Home() {
             </Link>
           </div>
 
-          <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-            {[1, 2, 3, 4].map((member) => (
-              <div
-                key={member}
-                className="rounded-2xl border border-gray-200 p-6 transition hover:-translate-y-1 hover:shadow-lg"
-              >
-                <div className="mb-5 flex h-20 w-20 items-center justify-center rounded-full bg-blue-100 text-2xl font-bold text-blue-600">
-                  {member}
-                </div>
+        
 
-                <h3 className="font-bold">Nama Anggota</h3>
+<div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+  {members.map((member) => (
+    <div
+      key={member.id}
+      className="rounded-2xl border border-gray-200 p-6 transition hover:-translate-y-1 hover:shadow-lg"
+    >
+      {/* Foto / Inisial */}
+      <div className="mb-5 flex h-20 w-20 items-center justify-center rounded-full bg-blue-100 text-2xl font-bold text-blue-600">
+        {member.name.charAt(0)}
+      </div>
 
-                <p className="mt-1 text-sm text-gray-500">
-                  Role / Jabatan
-                </p>
-              </div>
-            ))}
-          </div>
+      {/* Nama */}
+      <h3 className="font-bold">
+        {member.name}
+      </h3>
+
+      {/* Jabatan */}
+      <p className="mt-1 text-sm text-gray-500">
+        {member.role}
+      </p>
+    </div>
+  ))}
+</div>
+
 
           <Link
             href="/anggota"
