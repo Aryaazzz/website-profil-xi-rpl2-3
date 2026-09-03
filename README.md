@@ -2,9 +2,9 @@
  Website ini merupakan proyek pembelajaran kolaborasi Git dan GitHub. 
  ## Anggota Tim 
  1. Arya pamukluhur prabawa - Project Manager 
- 2. alifa - Developer 
- 3. Afrizal- Developer 
- 4. Yeni - Developer
+ 2. alifa - Developer Fitur-Profile
+ 3. Afrizal- Developer Fitur-Kontak
+ 4. Yeni - Developer Fitur-Anggota
 
  ## URL repository:
  https://github.com/Aryaazzz/website-profil-xi-rpl2-3.git
