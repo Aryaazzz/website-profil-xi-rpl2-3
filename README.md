@@ -1,36 +1,25 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Refleksi Individu 
 
-## Getting Started
+1. Apa perbedaan bekerja sendiri dengan bekerja menggunakan Git dan GitHub?
+Kalau kerja sendiri kodenya cuma tersimpan di laptop kita dan gampang hilang atau ketimpa. Kalau pakai Git dan GitHub, riwayat kodingan kita tersimpan aman di internet, jadi bisa dikerjain bareng-bareng sama tim tanpa ganggu file orang lain.  
 
-First, run the development server:
+2. Apa manfaat branch?
+Manfaat branch itu seperti punya lembar kerja terpisah. Kita bisa bebas nyoba-nyoba bikin fitur baru tanpa takut merusak file utama (main) yang udah bagus.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+3. Mengapa Pull Request diperlukan?
+Pull Request itu ibarat minta izin. Jadi sebelum kodingan kita dimasukkan ke file utama, tim atau ketua kelompok harus cek dan setujui dulu supaya tidak ada kode yang error
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Apa manfaat Code Review?
+Manfaatnya supaya kodingan kita dicek ulang sama teman. Kalau ada tulisan yang salah atau kurang rapi, bisa langsung diperbaiki bareng-bareng sebelum di-merge
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+5. Error apa yang paling sulit kalian selesaikan?
+Error conflict saat ada dua orang yang mengubah baris kode di file yang sama, sama error saat git push ditolak karena file di laptop belum disinkronkan sama yang ada di GitHub
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+6. Bagaimana kalian menemukan solusinya?
+Caranya dengan membaca pesan error-nya pelan-pelan, ngobrol dan diskusi sama teman kelompok, dan tanya ke AI buat cari tahu jalan keluarnya.
 
-## Learn More
+7. Apa kontribusi terbesar kalian dalam kelompok?
+Kontribusi terbesar saya adalah membuat dan menyelesaikan halaman profil kelas yang berisi latar belakang, visi, dan misi kelas di branch fitur-profil
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+8. Jika menjadi programmer profesional, kebiasaan apa dari kegiatan ini yang akan kalian pertahankan?
+Kebiasaan selalu bikin branch baru kalau mau koding fitur baru, tulis pesan commit yang jelas, dan selalu komunikasi sama tim sebelum gabungin kode
